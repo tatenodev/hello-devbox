@@ -18,8 +18,9 @@ https://www.jetify.com/docs/devbox/installing-devbox
 curl -fsSL https://get.jetify.com/devbox | bash
 ```
 
-## start
+## Start
 
 ```sh
-% devbox shell
+$ devbox shell // Devboxシェル内で開発する
+$ exit // Devboxシェルの終了
 ```
