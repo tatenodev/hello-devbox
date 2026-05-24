@@ -17,3 +17,9 @@ https://www.jetify.com/docs/devbox/installing-devbox
 ```sh
 curl -fsSL https://get.jetify.com/devbox | bash
 ```
+
+## start
+
+```sh
+% devbox shell
+```
