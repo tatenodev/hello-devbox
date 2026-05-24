@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.17.2/.schema/devbox.schema.json",
+  "packages": ["nodejs@24.12.0", "go@1.26.2"],
+  "env": {
+    "DEVBOX_USE_VERSION": "0.17.2",
+    "MISE_DATA_DIR": "/dev/null"
+  },
+  "shell": {
+    "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],
+    "scripts": {
+      "test": ["echo \"Error: no test specified\" && exit 1"]
+    }
+  }
+}
