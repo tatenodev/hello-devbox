@@ -10,9 +10,13 @@
     "MISE_DATA_DIR":      "/dev/null"
   },
   "shell": {
-    "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null",
+      "alias start='devbox run start'"
+    ],
     "scripts": {
-      "test": ["echo \"Error: no test specified\" && exit 1"]
+      "test": ["echo \"Error: no test specified\" && exit 1"],
+      "start": "cd front && pnpm dev"
     }
   }
 }

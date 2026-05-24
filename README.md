@@ -21,6 +21,7 @@ curl -fsSL https://get.jetify.com/devbox | bash
 ## Start
 
 ```sh
-$ devbox shell // Devboxシェル内で開発する
-$ exit // Devboxシェルの終了
+$ devbox shell # Devboxシェル内で開発する
+$ start        # startコマンドでサーバー起動できるようにdevbox.jsonで設定
+$ exit         # Devboxシェルの終了
 ```
